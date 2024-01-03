@@ -1,0 +1,270 @@
+/* importing */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/* importing */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* Transition */
+a {
+    transition: all 300ms ease;
+}
+/* Navigation */
+
+nav {
+    display: flex;
+    height: 17vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 32px;
+    color: black;
+}
+nav a, 
+.nav-links {
+    font-size: 24px;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    text-decoration: none;
+    text-decoration-color: white;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #555555;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+/* Section  */
+
+section {
+    padding-top: 4vh;
+    box-sizing: border-box;
+    min-height: fit-content;
+    margin: 0 10rem;
+    height: 70vh;
+}
+
+section .profile-pic {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+    border-radius: 40rem;
+    box-shadow: #555555 5px 5px 5px;
+}
+
+section .profile-text {
+    text-align: center;
+    align-self: center;
+    padding: 7rem;
+}
+
+.profile-text p{
+    font-weight: 600;
+}
+
+.Intro_1 {
+    font-weight: 600;
+    color: #555555;
+    text-align: center;
+}
+
+.Intro_2 {
+    color: #555555;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;      
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+section div .profile {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.btn1{
+    font-weight: 600;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: #555555 5px 5px 5px;
+}
+
+.btn2{
+    font-weight: 600;
+    /* margin: 1rem; */
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: #555555 5px 5px 5px;
+}
+
+.btn1:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.social-icon i{
+    font-size: 2rem;
+    padding: 0.2rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+
+.social-icon i:hover{
+    box-shadow: #555555 5px 5px 5px;
+}
+
+/* Section 2 */
+
+#About {
+    list-style: none;
+    padding: 5rem;
+    margin-top: 4rem;
+    height: fit-content;
+}
+
+.style {
+    color: #555555;
+}
+
+#About p, h1{
+    list-style: none;
+    font-size: 1rem;
+    justify-content: center;
+    display: flex;
+}
+
+#About h1 {
+    font-size: 3rem;
+}
+
+.About_Section {
+    display: flex;
+}
+
+.About_Pic{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: #555555 5px 5px 5px;
+}
+
+.Detail{
+    display: flex;
+    padding: 2rem;
+}
+
+.box {
+    height: 200px;
+    width: 300px;
+    border: 2px solid gray;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+}
+
+.About_text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 2rem;
+    top: 59.9rem;
+    padding: 2rem;
+    float: right;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+/* Section 3 */
+
+#Experience_Section {
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+#Experience_Section p {
+    justify-content: center;
+    display: flex;
+}
+
+#Experience_Section h1 {
+    font-weight: 600;
+    font-size: 3rem;
+    justify-content: center;
+    display: flex;
+}
+
+.Experience-detail-container{
+    border: 2px solid grey;
+    width: 30vw;
+    height: 350px;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    overflow:auto;
+    display: flex;
+}
+
+.Experience-title {
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#Experience_Section article {
+    display: flex;
+}
+
+.Articles i {
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+.margin {
+    margin-top: 2rem;
+}
